@@ -39,7 +39,7 @@ class Clpt
      */
     public function linkSuccess()
     {
-        return true;
+        return 'linkSuccess';
     }
 
 }

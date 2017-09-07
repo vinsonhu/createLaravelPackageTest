@@ -21,7 +21,7 @@
             "src/commands"
         ],
         "psr-4": {
-            "vinsonhu\\createLaravelPackageTest\\": "src/Test/"
+            "vinsonhu\\createLaravelPackageTest\\": "src/Clpt/"
         }
     }
 }

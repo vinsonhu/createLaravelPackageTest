@@ -45,7 +45,7 @@ class ClptServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->registerEntrust();
+        $this->registerClpt();
 
         $this->registerCommands();
 
@@ -67,13 +67,13 @@ class ClptServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    private function registerEntrust()
+    private function registerClpt()
     {
-        $this->app->bind('clpt', function ($app) {
+        $this->app->bind('Clpt', function ($app) {
             return new Clpt($app);
         });
         
-        $this->app->alias('clpt', 'vinsonhu\Clpt\Clpt');
+        $this->app->alias('Clpt', 'vinsonhu\createLaravelPackageTest\Clpt');
     }
 
     /**

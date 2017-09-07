@@ -19,6 +19,6 @@ class ClptFacade extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'entrust';
+        return 'Clpt';
     }
 }

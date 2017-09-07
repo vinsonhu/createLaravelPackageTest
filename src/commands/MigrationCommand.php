@@ -1,4 +1,4 @@
-<?php namespace Zizaco\Entrust;
+<?php namespace vinsonhu\createLaravelPackageTest;
 
 /**
  * This file is part of Entrust,
