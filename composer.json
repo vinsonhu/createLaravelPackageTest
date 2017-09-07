@@ -1,0 +1,27 @@
+{
+    "name": "vinsonhu/create-laravel-package-test",
+    "description": "create laravel package test",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vinson",
+            "email": "277153536@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.7",
+        "mockery/mockery": "0.9.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/commands"
+        ],
+        "psr-4": {
+            "vinsonhu\\createLaravelPackageTest\\": "src/Test/"
+        }
+    }
+}
